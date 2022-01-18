@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Doctor</title>
+    <meta name="description" content="  I am a doctor dentel">
+    <meta name="keywords" content="doctor, dentel, tooth,">
+    <meta name="author" content="diana elhatoom">
+
+    <!-- compatibility meta IE -->
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <!-- first mobile meta-->
+    <meta name="viewport" content="width=device-width, initial-scale=1"><meta>
+
+
+    <link href="http://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/default-theme.css">
+    <link rel="stylesheet" href="css/purple-theme.css">
+    <link rel="stylesheet" href="css/blue-theme.css">
+    <link rel="stylesheet" href="css/yellow-theme.css">
+    <link rel="stylesheet" href="css/green-theme.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <!--[if It IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endiF]-->
+
+</head>
+<div class="id">
+    <div class="spinner">
+        <div class="col-md-4">
+
+        </div>
+    </div>
+
+</div>
+<!-- Preloader -->
+<div id="preloader">
+    <div class="spinner"></div>
+</div>
+<!-- Start scroll button -->
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<!-- End  scroll button -->
+<!----------------------start section tool box ----------------------->
+<section class="option-box">
+    <div class="color-option">
+        <h4>Color Option</h4>
+        <ul class="list-unstyled">
+            <li data-value="css/blue-theme.css"></li>
+            <li data-value="css/green-theme.css"></li>
+            <li data-value="css/purple-theme.css"></li>
+            <li data-value="css/yellow-theme.css"></li>
+            <li data-value="css/default-theme.css" ></li>
+
+        </ul>
+    </div>
+    <i class="fa fa-gear fa-3x gear-check"></i>
+
+</section>
+
+<!----------------------End section tool box ----------------------->
+
+
+
+<!----------------------start nav bar ----------------------->
+
+<nav class="navbar navbar-default  navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#ournavbar" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"> <span> ديانا </span> </a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+
+            <div class="collapse navbar-collapse" id="ournavbar" >
+                <ul class="nav navbar-nav navbar-right ">
+                    <li class="active"><a href="#home"> الصفحة الرئيسية <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#about" class="navbar-link"> حول </a></li>
+                    <li><a href="#doctor" class="navbar-link">الأطباء </a></li>
+                    <li><a href="#blog" class="navbar-link"> المدونة </a></li>
+                    <li><a href="#contact" class="navbar-link"> اتصل بنا </a></li>
+                    <li class="dropdown"  >
+                        <a   class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" >الخدمات  <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#services">تركيب الأسنان</a></li>
+                            <li><a href="#services">تنظيف الأسنان </a></li>
+                            <li><a href="#services">عمليات تجميلية  </a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#services">عمليات جراحية</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div><!-- /.navbar-collapse -->
+
+
+
+
+    </div><!-- /.container-fluid -->
+</nav>
+
+<!------------------------------------ end nav bar--------------------------->
+
+
+
+
+<!-- End Navbar --->
+<!-- Start Notebook Image  --->
+<div class="welcome" id="home">
+    <div class="container">
+        <div class="row">
+
+            <div class="cone wow fadeInUp" data-wow-duration="3s"  data-wow-offset="300">
+                <h4>أهلا بكم مع الدكتوره ديانا</h4>
+                <h1>نحن نجعل ابتسامتك جميلة</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Amet quod modi,
+                    eius minus hic illum perspiciatis! <br>Voluptate facere tempore, libero enim fugit,<br>
+                    temporibus non dolor nostrum iure ad.Dolorem, explicabo</p>
+                <!-- Trigger/Open The Modal -->
+                <button id="tn" >احجز موعد</button>
+
+                <!-- The Modal -->
+                <div id="al" class="dal">
+
+                    <!-- Modal content -->
+                    <div class="l-content">
+                        <span class="se">&times;</span>
+
+                        <div class="tainer">
+                            <form action="action_page.php">
+
+                                <label for="fname">الاسم رباعي</label>
+                                <input type="text" id="fname" name="firstname" placeholder="الاسم رباعي">
+
+                                <label for="lname">رقم الجوال</label>
+                                <input type="text" id="lname" name="lastname" placeholder="رقم الجوال">
+
+                                <label for="country">الموعد المناسب</label>
+                                <select id="country" name="country">
+                                    <option value="australia">9 AM to 10 AM</option>
+                                    <option value="canada">11 AM to 12 PM</option>
+                                    <option value="usa">2 PM to 4 PM</option>
+                                    <option value="australia">8 PM to 10 PM</option>
+
+                                </select>
+
+                                <label for="subject">الموضوع</label>
+                                <textarea id="subject" name="subject" placeholder="اكتب هنا" style="height:200px"></textarea>
+
+                                <input type="submit" value="ارسال">
+
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+    </div>
+
+</div>
+
+
+
+
+<!-- End Notebook Image --->
+
+
+
+
+<!-- Start Dental Services --->
+<div class="services" id="services">
+
+    <div class="container">
+        <div class="block-1">
+            <span>جميع أنواع الخدمات</span>
+            <h1> خدمات طب الأسنان</h1>
+        </div>
+        <div class="row">
+
+
+            <div class=" flip-box ">
+                <div class="col-md-4 col-xs-12 col-sm-6">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                            <h2>خلع الأسنان</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum suscipit quo quae</p>
+                        </div>
+                        <div class="flip-box-back">
+                            <img src="images/3.jpg" style=" width: 250px; height: 200px;">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div>
+                <div class=" flip-box ">
+                    <div class="col-md-4 col-xs-12 col-sm-6">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <h2>حشوات الأسنان</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum suscipit quo quae</p>
+                            </div>
+                            <div class="flip-box-back">
+                                <img src="images/3.jpg" style=" width: 250px; height: 200px;">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+                <div class=" flip-box ">
+                    <div class="col-md-4 col-xs-12 col-sm-6">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <h2>تثبيت الجسور </h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum suscipit quo quae</p>
+                            </div>
+                            <div class="flip-box-back">
+                                <img src="images/3.jpg" style=" width: 250px; height: 200px;">
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+                <div class=" flip-box ">
+                    <div class="col-md-4 col-xs-12 col-sm-6">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <h2 >تجميل الاسنان</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum suscipit quo quae</p>
+                            </div>
+                            <div class="flip-box-back">
+                                <img src="images/2.jpg" style=" width: 250px; height: 200px;">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                 <div class=" flip-box ">
+                     <div class="col-md-4 col-xs-12 col-sm-6 ">
+                         <div class="flip-box-inner">
+                             <div class="flip-box-front">
+                                 <h2>تنظيف الأسنان</h2>
+                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum suscipit quo quae</p>
+                             </div>
+                             <div class="flip-box-back">
+                                 <img src="images/2.jpg" style=" width: 250px; height: 200px;">
+                             </div>
+                         </div>
+                     </div>
+
+                 </div>
+
+
+
+
+                 <div class=" flip-box ">
+                     <div class="col-md-4 col-xs-12 col-sm-6">
+                         <div class="flip-box-inner">
+                             <div class="flip-box-front">
+                                 <h2>التخلص من الالم</h2>
+                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum suscipit quo quae</p>
+                             </div>
+                             <div class="flip-box-back">
+                                 <img src="images/3.jpg" style=" width: 250px; height: 200px;">
+                             </div>
+                         </div>
+                     </div>
+
+                 </div>
+
+        </div>
+
+    </div>
+</div>
+<!-- End  Dental Services --->
+
+<!-- Start video  --->
+<div class="container" id="about">
+    <!-- 16:9 aspect ratio -->
+    <!-- 4:3 aspect ratio -->
+    <div class="embed-responsive embed-responsive-4by3">
+        <iframe class="embed-responsive-item" src="images/vid.mp4"></iframe>
+    </div>
+</div>
+
+
+
+
+
+
+<!-- End video --->
+
+<!-- Start Meet Our Team -->
+<div class="our-team " id="doctor">
+    <div class="container">
+        <h4> الأطباء </h4>
+        <h1> تعرف على فريقنا </h1>
+        <div class="row">
+            <div class="column col-md-4">
+                <div class="card  wow fadeInUp" data-wow-duration="2s"  data-wow-offset="350">
+                    <img src="images/team/1.jpg" alt="Jane" style="width:100%">
+                    <div class="c">
+                        <h2>أحمد </h2>
+                        <p class="title">طبيب تجميل </p>
+                        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                        <div class="social-section">
+
+                            <div class="social">
+                                <i class="fa fa-facebook fa-3x fa-fw"> </i>
+                                <i class="fa fa-twitter fa-3x fa-fw"></i>
+                                <i class="fa fa-instagram fa-3x fa-fw"></i>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="column col-md-4">
+                <div class="card  wow fadeInUp" data-wow-duration="3s"  data-wow-offset="350">
+                    <img src="images/team/2.jpg" alt="Mike" style="width:100%">
+                    <div class="c">
+                        <h2>محمد</h2>
+                        <p class="title">طبيب أسنان</p>
+                        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                        <div class="social-section">
+
+                            <div class="social">
+                                <i class="fa fa-facebook fa-3x fa-fw"> </i>
+                                <i class="fa fa-twitter fa-3x fa-fw"></i>
+                                <i class="fa fa-instagram fa-3x fa-fw"></i>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="column col-md-4">
+                <div class="card  wow fadeInUp" data-wow-duration="4s"  data-wow-offset="350">
+                    <img src="images/team/3.jpg" alt="John" style="width:100%">
+                    <div class="c">
+                        <h2>محمود</h2>
+                        <p class="title">طبيب اسنان</p>
+                        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                        <div class="social-section">
+
+                            <div class="social">
+                                <i class="fa fa-facebook fa-3x fa-fw"> </i>
+                                <i class="fa fa-twitter fa-3x fa-fw"></i>
+                                <i class="fa fa-instagram fa-3x fa-fw"></i>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<!-- End Meet Our Team -->
+
+<!-- Start Testimonials -->
+    <div class="container">
+        <div class="test">
+            <h2> نحن سعداء بشهادتك </h2>
+            <div class="containe">
+                <img src="images/blog/c4.jpg" alt="Avatar" style="width:90px">
+                <p><span>داليا :</span> طبيبه أطفال</p>
+                <p>خدماتهم متميزه وراقيه </p>
+            </div>
+
+            <div class="containe">
+                <img src="images/blog/c5.jpg" alt="Avatar" style="width:90px">
+                <p><span>   رامي :</span> طبيب أسنان</p>
+                <p>لا أحد أفضل من الطبيبه ديانا</p>
+            </div>
+            <div class="containe">
+                <img src="images/blog/c6.jpg" alt="Avatar" style="width:90px">
+                <p><span >  جوليا :</span> صيدلانيه.</p>
+                <p>انهم متميزون جدا جدا</p>
+            </div>
+
+        </div>
+    </div>
+
+<!-- End Testimonials -->
+
+<!-- Start Blog-->
+    <div class="container" id="blog">
+        <div class="header2">
+            <h2>المدونة</h2>
+        </div>
+
+
+
+        <div class="row">
+            <div class="leftcolumn">
+                <div class="card">
+                    <h2>عنوان رئيسي </h2>
+                    <h5>وصف العنوان, Dec 7, 2017</h5>
+                    <div class="fakeimg" style="height:200px;"> </div>
+                    <p>اكتب هنا..</p>
+                </div>
+                <div class="card">
+                    <h2>عنوان رئيسي</h2>
+                    <h5>وصف العنوان, Sep 2, 2017</h5>
+                    <div class="fakeimg" style="height:200px;"></div>
+                    <p>اكتب هنا..</p>
+                </div>
+            </div>
+            <div class="rightcolumn">
+                <div class="card">
+                    <h2></h2>
+                    <div class="fakeimg" style="height:100px;"></div>
+                    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+                </div>
+                <div class="card">
+                    <h3></h3>
+                    <div class="fakeimg"></div><br>
+                    <div class="fakeimg"></div><br>
+                    <div class="fakeimg"></div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+<!-- End Blog -->
+
+<!-- Start Contact Form -->
+<div class="coo" id="contact">
+    <div class="container">
+
+        <h1> اتصل بنا  </h1>
+        <div class="row">
+            <div class="col-md-6">
+
+
+                    <div class="contain1">
+                        <form action="action_page.php">
+
+                            <label for="fname">الأسم الأول</label>
+                            <input type="text" id="fname" name="firstname" placeholder="الاسم الأول">
+
+                            <label for="lname">الأسم الأخير</label>
+                            <input type="text" id="lname" name="lastname" placeholder="الاسم الاخير">
+
+                            <label for="lname">رقم الجوال</label>
+                            <input type="text" id="lname" name="lastname" placeholder="رقم الجوال">
+
+                            <label for="country">المدينة</label>
+                            <select id="country" name="country">
+                                <option value="australia">غزة</option>
+                                <option value="canada">النصيرات</option>
+                                <option value="usa">البريج</option>
+                                <option value="australia">دير البلح</option>
+                                <option value="canada">بيت حانون</option>
+                                <option value="usa">بيت لاهيا</option>
+                                <option value="australia">جباليا</option>
+                                <option value="canada">خان يونس</option>
+                                <option value="usa">رفح</option>
+                            </select>
+
+                            <label for="subject">الموضوع</label>
+                            <textarea id="subject" name="subject" placeholder="  اكتب رسالتك" style="height:200px"></textarea>
+
+                            <input type="submit" value="ارسال">
+
+                        </form>
+                    </div>
+
+
+            </div>
+            <div class="col-md-6">
+                <div class="contain2">
+
+                    <h2> أنا بحاجة الى دعوة ؟</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<a>ahmed0599190439@gmail.com </a> Dolores, distinctio! Harum quibusdam nisi,
+                        illum nulla aspernatur voluptas nam praesentium aut quidem aperiam,
+                        quae non tempora recusandae voluptatibus fugit impedit </p>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+</div>
+
+
+
+<!-- End  Contact Form -->
+
+<!-- Start Footer -->
+<footer>
+
+    <div class="top-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                     <h3>من نحن</h3>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Neque facere laudantium magnam voluptatum autem.
+                        Amet aliquid nesciunt veritatis aliquam </p>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <h3>السمات</h3>
+
+                        <ul class="list-unstyled">
+                            <li><a href="#"> من نحن </a></li>
+                            <li><a href="#"> خدماتنا</a></li>
+                            <li><a href="#"> الأطباء</a></li>
+                            <li><a href="#"> التوصيات</a></li>
+                            <li><a href="#"> المدونه</a></li>
+                            <li><a href="#"> تواصل معنا</a></li>
+                        </ul>
+
+                </div>
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="on">
+                        <h3>ابق على اتصال</h3>
+                        <form action="action_page.php">
+
+
+                            <div class="cont" style="background-color:white">
+                                <input type="text" placeholder="الاسم" name="name" required>
+                                <input type="text" placeholder="الايميل" name="mail" required>
+                                <label>
+                                    <input type="checkbox" checked="checked" name="subscribe"> الأخبار يوميا
+                                </label>
+                            </div>
+
+                            <div class="cont">
+                                <input type="submit" value="ارسال">
+                            </div>
+                        </form>
+
+                        <div class="social-section">
+
+                            <div class="social">
+                                <i class="fa fa-facebook fa-3x fa-fw"> </i>
+                                <i class="fa fa-twitter fa-3x fa-fw"></i>
+                                <i class="fa fa-instagram fa-3x fa-fw"></i>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="bottom-footer">
+       <a href="#"> ahmed0599190439@gmail.com  </a>  |   جميع الحقوق محفوظة 2019
+    </div>
+
+</footer>
+
+
+<!-- End  Footer -->
+
+    <!-- Start Loader -->
+
+     End  Loader -->
+
+
+
+
+<script src="jquiry/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/wow.min.js"></script>
+<script>new WOW().init();</script>
+</body>
+</html>

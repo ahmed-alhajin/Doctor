@@ -1,0 +1,51 @@
+/*  start media query*/
+
+
+/* smart phones and tablets*/
+@media (max-width: 767px) {
+.flip-box{
+    margin-left: 100px;
+}
+    .contain2{
+        margin-top: 30px;
+
+    }
+    .tainer{
+       width: 300px;
+        margin-left: -87px;
+    }
+}
+
+
+/* small screen */
+@media(min-width: 768px)and (max-width: 991px) {
+
+    .dropdown-menu{
+        margin-left: -117px;
+    }
+    .cone{
+        margin-left: 200px;
+    }
+    .contain2{
+        margin-top: 30px;
+        margin-left: 150px;
+
+    }
+}
+
+@media(min-width: 992px)and (max-width: 1199px) {
+    .dropdown-menu{
+        margin-left: -117px;
+    }
+    .on{
+        margin-right: -300px;
+        margin-left: 100px;
+        margin-bottom: 50px;
+    }
+}
+
+@media(min-width: 1200px) {
+
+}
+
+/*  end media query*/
